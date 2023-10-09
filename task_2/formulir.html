@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="formulir.css">
+    <title>Tugas 2 Pemrograman Web</title>
+</head>
+<body>
+    <form action="formulir_pendaftaran.php" method="get">
+    <div class="kotak">
+        <div class="title">Formulir Pendafratan Minat Bakat</div>
+            <label for="email">Email : </label><br>
+            <input type="text"  name="email"><br>
+
+            <label for="nama">Nama : </label><br>
+            <input type="text" id="nama" name="nama"><br>
+
+            <label for="alamat">Alamat : </label><br>
+            <input type="text" id="alamat" name="alamat"><br><br>
+
+            <p>Jenis Kelamin</p>
+            <input type="radio" name="jenis_kelamin" value="Laki-Laki">Laki-Laki<br>
+            <input type="radio" name="jenis_kelamin" value="Perempuan">Perempuan<br><br>
+            
+            <p>Minat Dan Bakat</p>
+            <input type="checkbox" id="art" name="minat_bakat" value="Seni">
+            <label for="art">Seni</label><br>
+
+            <input type="checkbox" id="sport" name="minat_bakat" value="Olahraga">
+            <label for="sport">Olahraga</label><br><br>
+
+            <label for="hobi">Hobi : </label><br>
+            <input type="text" id="hobi" name="hobi"><br><br>
+
+            <button style="background-color: rgb(106, 106, 227)"> Simpan </button>
+        
+        </div>
+    </form>
+</body>
+</html>
